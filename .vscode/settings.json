@@ -1,0 +1,22 @@
+{
+  "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-24",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-24",
+      "path": "C:\\Program Files\\Java\\jdk-24",
+      "default": true
+    }
+  ],
+  "java.project.sourcePaths": [
+    "Fundementals of Programming/Tutorials",
+    "Fundementals of Programming/Labs",
+    "Fundementals of Programming/Viva_1",
+    "Fundementals of Programming/Viva_2",
+    "Fundementals of Programming/Viva_3"
+  ],
+  "code-runner.runInTerminal": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.executorMap": {
+    "java": "if ($?) { javac \"$fileName\" }; if ($?) { java -cp . \"$fileNameWithoutExt\" }"
+  }
+}
